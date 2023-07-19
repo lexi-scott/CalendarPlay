@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text, Button, Styleheet } from 'react-native';
+import { View, Text, Button, StyleSheet } from 'react-native';
 
-const FindScreen = ({navigation}) => {
+const UserScreen = ({navigation}) => {
     return(
         <View style={styles.container}>
-            <Text>Chat Screen</Text>
+            <Text>User Screen</Text>
             <Button 
             title="Click Here"
             onPress={() => alert('Button Clicked')}
@@ -13,13 +13,13 @@ const FindScreen = ({navigation}) => {
     );
 };
 
-export default FindScreen
+export default UserScreen
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor:  "8#fcbbc"
+        backgroundColor:  "#8fcbbc"
     },
 });
